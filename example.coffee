@@ -5,3 +5,4 @@
 # coffee by the time you get here
 require './lib/coffee-react-cache'
 require './example_files/required'
+require './example_files/component'
