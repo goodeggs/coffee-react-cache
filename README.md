@@ -1,4 +1,4 @@
-# coffee-cache
+# coffee-react-cache
 
 Caches the contents of required CoffeeScript files so that they are not
 recompiled to help improve startup time.
@@ -16,12 +16,12 @@ change.
 
 ## How to use
 
-1. Add to your package.json dependencies and run `npm install` or run `npm install coffee-cache`.
+1. Add to your package.json dependencies and run `npm install` or run `npm install coffee-react-cache`.
 
 2.  In your entry point file, add the following:
 
     ```coffee
-    require('coffee-cache')
+    require('coffee-react-cache')
     ```
 
 3. That's it. By default the files are cached in the `./.coffee/` directory. If
@@ -41,7 +41,7 @@ of two ways:
 2. Use the `setCacheDir` method on the required module:
 
     ```coffee
-    require('coffee-cache').setCacheDir('../cached/')
+    require('coffee-react-cache').setCacheDir('../cached/')
     ```
 
 Just make sure your process has permission to create the necessary folder or

@@ -1,14 +1,14 @@
 {
-  "name": "coffee-cache",
-  "author": "Doug Patti <douglas.patti@gmail.com>",
-  "description": "Caches the contents of required CoffeeScript files so that they are not recompiled to help improve startup time",
+  "name": "coffee-react-cache",
+  "author": "Bob Zoller <bob@zoller.us>",
+  "description": "Caches the contents of required CoffeeScript and CJSX files so that they are not recompiled to help improve startup time",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FogCreek/node-coffee-cache.git"
+    "url": "https://github.com/goodeggs/coffee-react-cache.git"
   },
-  "main": "./lib/coffee-cache",
-  "keywords": ["coffee", "cache", "filesystem", "startup"],
+  "main": "./lib/coffee-react-cache",
+  "keywords": ["coffee", "cache", "filesystem", "startup", "react", "cjsx", "jsx"],
   "dependencies": {
     "mkpath": "0.1.0"
   },
